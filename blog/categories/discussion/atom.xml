@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Discussion | NBench]]></title>
+  <link href="http://chichaumiau.github.io/nbench/blog/categories/discussion/atom.xml" rel="self"/>
+  <link href="http://chichaumiau.github.io/nbench/"/>
+  <updated>2018-01-31T12:31:53+00:00</updated>
+  <id>http://chichaumiau.github.io/nbench/</id>
+  <author>
+    <name><![CDATA[Chichau Miau]]></name>
+    <email><![CDATA[chichaumiau@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Moonlighting Proteins]]></title>
+    <link href="http://chichaumiau.github.io/nbench/blog/2018/01/30/moonlighting-proteins/"/>
+    <updated>2018-01-30T15:38:20+00:00</updated>
+    <id>http://chichaumiau.github.io/nbench/blog/2018/01/30/moonlighting-proteins</id>
+    <content type="html"><![CDATA[<p>Moonlighting proteins and Promiscuous proteins carry out different functions and are less likely to determine the exact functional sites. Good prediction programs that can explore the essential driving force of protein-nucleic acid binding should predict all the functional sites rather than only one possibility.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nucleic Acid Binding Energy Funnel on Protein Surface]]></title>
+    <link href="http://chichaumiau.github.io/nbench/blog/2018/01/30/nucleic-acid-binding-energy-funnel-on-protein-surface/"/>
+    <updated>2018-01-30T15:36:43+00:00</updated>
+    <id>http://chichaumiau.github.io/nbench/blog/2018/01/30/nucleic-acid-binding-energy-funnel-on-protein-surface</id>
+    <content type="html"><![CDATA[<p>When we plot the prediction score of nucleic acid binding score on protein surface, it is possible to show certain energy funnel that focus on the core binding region, while neighboring regions are less likely to binding nucleic acid. Farther away from the binding core, lower the score is. <br/>
+<img src="http://chichaumiau.github.io/nbench/images/FigS9.png" width="600px" align="center"/></p>
+
+<hr/>
+
+
+<p>Ideally, we can correlate the prediction score with the distance from the residue to its nearest binding core. However, it is difficult to define the binding core and to measure surface distance. Approximately, we can use minimum distance from a residue to nucleic acid instead.
+We can find such an energy funnel is very similar to the energy funnel of protein folding and protein-nucleic acid docking. <br/>
+<img src="http://chichaumiau.github.io/nbench/images/FigS6.jpg" width="600px" align="center"/></p>
+
+<hr/>
+
+
+<p>Still, such energy funnels cannot guarantee that funnels for different proteins are identical <a href="http://chichaumiau.github.io/nbench/blog/2018/01/30/binary-classification-of-binding-sites-from-non-binding-sites/">Ref</a>. We can also use Pearson correlation coefficiency to stand for the correlation between prediction score and minimum distance to nucleic acid. Higher correlation coefficiency generally means better energy funnel representation.<br/>
+<img src="http://chichaumiau.github.io/nbench/images/Fig5.png" width="600px" align="center"/></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Risky Non-orthogonal Features]]></title>
+    <link href="http://chichaumiau.github.io/nbench/blog/2018/01/30/risky-non-orthogonal-features/"/>
+    <updated>2018-01-30T15:35:31+00:00</updated>
+    <id>http://chichaumiau.github.io/nbench/blog/2018/01/30/risky-non-orthogonal-features</id>
+    <content type="html"><![CDATA[<p>With the frequent use of machine learning in binding site prediction, many different features have been proposed. But the relationship between the features and the prediction is loose, because of the complicated learning process. Further, many of the features, who are derived in similar ways are not orthogonal with each other and cannot stand for different aspects of protein-nucleic acid binding. Non-orthogonal features distort the metric structure of the data space and contain reductant information. Therefore, some of the features are not effective enough as demonstrated in the papers. For instance, some prediction approaches map the sequence to AA index values. Then, a residue is expressed as a feature vector of values. This is an easy process to implement in machine learning. But 20 amino acid types only result in 20 different vectors to the learning machine. If a learning machine can always reach the most optimized model, such mapping process makes no different from directly taking the residue type as input. <br></p>
+
+<p><img src="http://chichaumiau.github.io/nbench/images/FigS14.jpg" height="200" width="600" /></p>
+
+<p>Scheme to illustrate the redundancy of &lsquo;New feature&rsquo; by just mapping to feature values.</p>
+
+<p>The learning process together with the mapping process can be taken as a big learning machine. If such a method is assessed by cross-validation with small scale independent test, conclusion could be misleading. Therefore, it is better to know the features are orthogonal and derived in different ways before using. E.g. electrostatics potential could be derived from structure based calculation, evolutionary information derived from homologous sequence search and alignment. <br></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Theoretical Defect of Slide-window]]></title>
+    <link href="http://chichaumiau.github.io/nbench/blog/2018/01/30/theoretical-defect-of-slide-window/"/>
+    <updated>2018-01-30T15:30:16+00:00</updated>
+    <id>http://chichaumiau.github.io/nbench/blog/2018/01/30/theoretical-defect-of-slide-window</id>
+    <content type="html"><![CDATA[<p>Many sequence-based predictions use a slide-window approach, which is easy to implement. The essence of slide-window approach can be traced back to the fragment based prediction of protein structure, which underlies the homologous search of fragment. However, the problem of binding site prediction is different from protein structure prediction. And residues close in space that form the binding interface can be far away in sequence. In a slide-window scheme, residue neighbors far away in sequence cannot be considered. But the neighboring residues form the environment of the target residue and can determine the binding. Slide-window approach may result in a dangerous situation that the prediction of a target residue can stay the same even all its spatial neighbors have been mutated. This also explains the reason why structure-based predictions are more accurate than sequence based ones. And sequence-based predictions still have room for improvement to avoid slide window approach and fill this gap.
+<img src="http://chichaumiau.github.io/nbench/images/FigS13.jpg" height="900" width="1000" /></p>
+
+<p>This Figure illustrates slide-window approach is less likely to consider real neighboring environment. Case of poly(A)-binding protein (PDB id: 1cvj chain A). Residue F102 is mutated into His, Glu and Asp. Variations around F102 is easy to comprehend but two other regions close in space are also related. RBscore consider the spatial neighbors, and show difference in region 127-129 and region 172-179. BindN+ show certain difference in the region 172-179. PPRInt and RNABindRPlus hardly show difference in prediction. Sequence-based methods are less likely to depict the effect of the mutation to the other regions far away in sequence. As demonstrated by deep mutational scanning, the single point mutation to Glu and Asp obviously make difference in the binding and should also affect other residue neighbors. Slide-window approach is difficult to capture such difference.</p>
+
+<p>Similarly, template based approach is also based on homologous search and may directly use the binding sites of the template. However, when some of the neighbor residues have been mutated can directly lead to a different binding, which cannot be captured by this approach.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Discriminate RNA Binding Residues From DNA Binding Residues]]></title>
+    <link href="http://chichaumiau.github.io/nbench/blog/2018/01/30/discriminate-rna-binding-residues-from-dna-binding-residues/"/>
+    <updated>2018-01-30T15:29:04+00:00</updated>
+    <id>http://chichaumiau.github.io/nbench/blog/2018/01/30/discriminate-rna-binding-residues-from-dna-binding-residues</id>
+    <content type="html"><![CDATA[<p>Together with the problem of binding site prediction, it is very interesting to know whether there is a program that can discriminate RNA binding residues from DNA binding residues. This discrimination would first include three assumptions: i) residues from different proteins could be compared; ii) RNA binding and DNA binding adopt different driving forces; iii) such driving forces have been explored by current programs. We assessed this discrimination by mixing DNA binding residues of a data set with RNA binding residues of another data set.</p>
+
+<p><img src="http://chichaumiau.github.io/nbench/images/Fig3.png" height="1000" width="1000" /></p>
+
+<p>According to  the Figure, we find several machine learning based approaches display a discriminative ability for RNA binding residues, including PRNA, Predict_RBP, RNABindRPlus and RBscore_SVM. However, this cannot guarantee predictive ability, since all of the programs have AUC &lt;0.5 on some data sets, which means the program favor the wrong type of residue. Further, we can find the programs PRNA, Predict_RBP, RNABindRPlus and RBscore_SVM have similar distribution for this test while their wAUC distributions are also similar. This result implies that these methods have similar prediction accuracies and similar preferences on data sets but cannot distinguish different residue types.</p>
+]]></content>
+  </entry>
+  
+</feed>

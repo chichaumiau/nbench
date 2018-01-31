@@ -1,0 +1,116 @@
+4nkuA poly(a) rna polymerase protein cid1
+3ie1A ribonuclease ttha0252
+4erdA telomerase associated protein p65
+3v22V ribosome modulation factor
+3rc8A atp-dependent rna helicase supv3l1, mitochondrial
+2i82A ribosomal large subunit pseudouridine synthase a
+3v2cY ribosome-associated inhibitor a
+2vnuD exosome complex exonuclease rrp44
+4ii9A femx
+4m59A chloroplast pentatricopeptide repeat protein 10
+3amtA putative uncharacterized protein
+3rw6A nuclear rna export factor 1
+3er9B poly(a) polymerase catalytic subunit
+1yvpA 60-kda ss-a/ro ribonucleoprotein
+4ujpO 40s ribosomal protein s13
+3hl2A o-phosphoseryl-trna(sec) selenium transferase
+4l8rC histone rna hairpin-binding protein
+4j7mA protein dom3z
+4g0aA non-structural protein 2
+4mdxA mrna interferase endoa
+4kj5U 50s ribosomal protein l24
+4kj5X 50s ribosomal protein l28
+3oinA essential for mitotic growth 1
+4horA interferon-induced protein with tetratricopeptide repeats5
+3dd2H thrombin heavy chain
+2xzoA regulator of nonsense transcripts 1
+3kfuF aspartyl/glutamyl-trna(asn/gln) amidotransferase subunit b
+3b0uX trna-dihydrouridine synthase
+3o7vX piwi-like protein 1
+3a6pA exportin-5
+3vjrA peptidyl-trna hydrolase
+4lj0A nab2
+3o8cA hcv ns3 protease/helicase
+4n2qA tha8 rna binding protein
+4kj6U 30s ribosomal protein s21
+4i67A heat resistant rna dependent atpase
+4c7oB signal recognition particle receptor ftsy
+2gjeA mitochondrial rna-binding protein 2
+3kiqy toxin rele
+4ujpZ 40s ribosomal protein s24-a
+2r8sH fab heavy chain
+3f1eX bacterial peptide chain release factor 2 (rf-2)
+1vq8O 50s ribosomal protein l18e
+4ujpa 40s ribosomal protein s25-a
+4wsbC polymerase pb2
+4o26A telomerase reverse transcriptase
+4kr6A probable trna sulfurtransferase
+2qkbA ribonuclease h1
+3ftfA dimethyladenosine transferase
+4ujpe 40s ribosomal protein s3
+2du3A o-phosphoseryl-trna synthetase
+3kjoA protection of telomeres protein 1
+3gpqA non-structural protein 3
+3huwV elongation factor p
+1un6B transcription factor iiia
+4ujpS 40s ribosomal protein s17-a
+3rtjA ricin a chain
+2fmtA methionyl-trna fmet formyltransferase
+2asbA transcription elongation protein nusa
+4ujpC 40s ribosomal protein s27-a
+4ujqN 60s ribosomal protein l13-a
+4j39A rna silencing suppressor p19
+4qikA roquin-1
+1ooaA nuclear factor nf-kappa-b p105 subunit
+4g7oF rna polymerase sigma factor
+2ez6A ribonuclease iii
+1ddlA desmodium yellow mottle virus
+2xfzY colicin-e3
+4ujpf 40s ribosomal protein s4-a
+4ohyA protein clpf-1
+4wsbB rna-directed rna polymerase catalytic subunit
+1u0bB cysteinyl trna
+1vq8G acidic ribosomal protein p0 homolog
+4ujpL 40s ribosomal protein s10-a
+4oavB protein (rnase l)
+2czjA ssra-binding protein
+4ujpF 40s ribosomal protein s4-a
+4p3eC signal recognition particle subunit srp68
+4rcjA yth domain-containing family protein 1
+2gjwA trna-splicing endonuclease
+4peiA rna lariat debranching enzyme, putative
+4kjiA rsmn, a rna-binding protein of regulator of secondarymetabolism
+2az0A b2 protein
+2anrA neuro-oncological ventral antigen 1
+4ndiA aprataxin
+2zkoA non-structural protein 1
+1hr0W translation initiation factor
+2derA trna-specific 2-thiouridylase mnma
+1h4sA prolyl-trna synthetase
+4un4B crispr-associated endonuclease cas9/csn1
+4oq8A coat protein
+3kylA telomerase reverse transcriptase
+4wsbA polymerase pa
+4ujpi suppressor protein STM1
+4ujqH 60s ribosomal protein l6-a
+3o3fA ribonuclease hii
+4o8jA rna 3'-terminal phosphate cyclase
+4ujpc 40s ribosomal protein s27-a
+3d2sA muscleblind-like protein 1
+2f8kA protein vts1
+4ujph 40s ribosomal protein s6-a
+2a1rA poly(a)-specific ribonuclease parn
+3htxA hen1
+4ujqO 60s ribosomal protein l14-a
+3snpA cytoplasmic aconitate hydratase
+2wj8A nucleoprotein
+3wqyA alanine--trna ligase
+4ujpH 40s ribosomal protein s6-a
+1h2cA matrix protein vp40
+4ujpJ 40s ribosomal protein s8-a
+2r8sL fab light chain
+4puqA tyrosyl-dna phosphodiesterase 2
+4dwaA e(rns) glycoprotein
+4ujpI 40s ribosomal protein s7-a
+4ujpg 40s ribosomal protein s5
+3tupA phenylalanyl-trna synthetase, mitochondrial

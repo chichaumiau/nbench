@@ -1,0 +1,22 @@
+NBench: A large-scale assessment of nucleic acids binding site prediction programs
+
+PDB ids: each id is a 5-letter code, the first 4 indicate the PDB id, while the last one point to the chain
+
+PDB structures: all PDB structures have been curated, HOH atoms have been deleted, and MSE residue have been mutated to MET
+
+Sequences: all sequences are formated in FASTA:
+
+>1urnA 96
+AVPETRPNHTIYINNLNEKIKKDELKKSLHAIFSRFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKM
+
+Binding site assignment: a file includes 7 lines, the first line is the sequence of the protein, the later 6 lines show the 
+	hierarchical assignment of nucleic acid binding sites with different cutoffs from 3.5A to 6.0A with 0.5A as a step. 
+	An example is shown below:
+
+AVPETRPNHTIYINNLNEKIKKDELKKSLHAIFSRFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKM	Sequence
+-----------+-++--+--+--------------------------++++++-+-----------------------+----++-+++++-----	Binding sites 3.5A
+-----------+-++--+--+---------------------+---+++++++-+-----------------------+----++++++++-----	Binding sites 4.0A
+-----------+-+++-+--+---------------------+---+++++++-+----------------------++----++++++++-----	Binding sites 4.5A
+-----------+-+++-++-+---------------------+---+++++++-+----------------------++--+-+++++++++----	Binding sites 5.0A
+-----------+-+++-++-+---------------------+---+++++++-+-+--------------------++--+-+++++++++----	Binding sites 5.5A
+-----------+-+++-++-+---------------------+-+-+++++++-+-+--------------------++--+-+++++++++----	Binding sites 6.0A

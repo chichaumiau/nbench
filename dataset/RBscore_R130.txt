@@ -1,0 +1,130 @@
+1e8oA signal recognition particle 9 kda protein
+2vqeF 30s ribosomal protein s6
+4illA crispr-associated endoribonuclease cas6 2
+1vq8V 50s ribosomal protein l29p
+1dfuP ribosomal protein l25
+2bh2A 23s rrna (uracil-5-)-methyltransferase ruma
+3rerB protein hfq
+2gicA nucleocapsid protein
+1vq8H 50s ribosomal protein l10e
+2r7wA rna-dependent rna polymerase
+2po1A probable exosome complex exonuclease 1
+1vq8B 50s ribosomal protein l3p
+4n48A cap-specific mrna (nucleoside-2'-o-)-methyltransferase 1
+2vqeT 30s ribosomal protein s20
+1j1uA tyrosyl-trna synthetase
+3ievA gtp-binding protein era
+1vq8E 50s ribosomal protein l6p
+4alpA lin28 isoform b
+1vq8R 50s ribosomal protein l22p
+4kreA protein argonaute-1
+1c0aA aspartyl trna synthetase
+4kj95 50s ribosomal protein l10
+2bu1A ms2 coat protein
+1vq8C 50s ribosomal protein l4e
+4arcA leucine--trna ligase
+4afyA fimx
+3iabB ribonucleases p/mrp protein subunit pop7
+1wsuA selenocysteine-specific elongation factor
+1vq8Q 50s ribosomal protein l21e
+2vooA lupus la protein
+3qgcA fem-3 mrna-binding factor 2
+1qf6A threonyl-trna synthetase
+1vq83 50s ribosomal protein l44e
+1vq8W 50s ribosomal protein l30p
+3v2f7 50s ribosomal protein l34
+1q2rA queuine trna-ribosyltransferase
+3peyA atp-dependent rna helicase dbp5
+2vqeE 30s ribosomal protein s5
+3bsoA rna dependent rna polymerase
+1vq82 50s ribosomal protein l39e
+1jbsA restrictocin
+3v2f1 50s ribosomal protein l28
+1wpuA hut operon positive regulatory protein
+2vqeQ 30s ribosomal protein s17
+4jngA nucleocapsid protein
+3v2f0 50s ribosomal protein l27
+1qtqA protein (glutaminyl-trna synthetase)
+2vqeR 30s ribosomal protein s18
+3v2f6 50s ribosomal protein l33
+2vqeD 30s ribosomal protein s4
+2vqeM 30s ribosomal protein s13
+2vqeB 30s ribosomal protein s2
+1vq8K 50s ribosomal protein l14p
+2vqeI 30s ribosomal protein s9
+2ozbB u4/u6 small nuclear ribonucleoprotein prp31
+1gtfL trp rna-binding attenuation protein (trap)
+2vqeN 30s ribosomal protein s14 type z
+2o5iD dna-directed rna polymerase beta' chain
+1vq8A 50s ribosomal protein l2p
+3v2fT 50s ribosomal protein l19
+3v2fU 50s ribosomal protein l20
+2xlkA csy4 endoribonuclease
+3v2fI 50s ribosomal protein l9
+2vqeS 30s ribosomal protein s19
+3eqtA atp-dependent rna helicase dhx58
+1jidA signal recognition particle 19 kda protein
+1hq1A signal recognition particle protein
+3v2f5 50s ribosomal protein l32
+1n78A glutamyl-trna synthetase
+3v2f8 50s ribosomal protein l35
+1ec6A rna-binding protein nova-2
+1vq8Z 50s ribosomal protein l37ae
+2zi0A protein 2b
+4gv3A nucleoprotein
+1vq8L 50s ribosomal protein l15p
+3avxA elongation factor ts, elongation factor tu, linker, q betareplicase
+1vfgA poly a polymerase
+1vq81 50s ribosomal protein l37e
+2jluA serine protease subunit ns3
+3v2fP 50s ribosomal protein l15
+2vqeC 30s ribosomal protein s3
+2vqeO 30s ribosomal protein s15
+4atoA toxn
+4h5pA nucleocapsid protein
+2y8yA cse3
+3uldA ribonuclease h
+3v2fV 50s ribosomal protein l21
+2a8vA rna binding domain of rho transcriptiontermination factor
+1vq8X 50s ribosomal protein l31e
+1knzA nonstructural rna-binding protein 34
+1sdsA 50s ribosomal protein l7ae
+1mswD dna-directed rna polymerase
+3am1A l-seryl-trna(sec) kinase
+4lgtA ribosomal large subunit pseudouridine synthase b
+1vq8S 50s ribosomal protein l23p
+3t5nA nucleoprotein
+3r2cB n utilization substance protein b
+4l8rB 3'-5' exoribonuclease 1
+3qjlA putative uncharacterized protein ph0350
+4fy8A capsid protein
+2vqeK 30s ribosomal protein s11
+2vqeG 30s ribosomal protein s7
+1vq8U 50s ribosomal protein l24e
+3mdiA cleavage and polyadenylation specificity factor subunit 5
+1vq8I 50s ribosomal protein l11p
+2vqeJ 30s ribosomal protein s10
+1k8wA trna pseudouridine synthase b
+1vq8M 50s ribosomal protein l15e
+1vq8Y 50s ribosomal protein l32e
+4m4oA lysozyme c
+3fozA trna delta(2)-isopentenylpyrophosphate transferase
+2vqeP 30s ribosomal protein s16
+3zc0A aftrax
+3bsuA ribonuclease h1
+2nugA ribonuclease iii
+2bx2L ribonuclease e
+1vq8T 50s ribosomal protein l24p
+2vqeH 30s ribosomal protein s8
+2b3jA trna adenosine deaminase
+3ovbA cca-adding enzyme
+3v2fR 50s ribosomal protein l17
+1vq8N 50s ribosomal protein l18p
+1vq8P 50s ribosomal protein l19e
+2o5iC dna-directed rna polymerase beta chain
+3v2fN 50s ribosomal protein l13
+1vq8J 50s ribosomal protein l13p
+3l25A polymerase cofactor vp35
+1vq8D 50s ribosomal protein l5p
+3umyA 50s ribosomal protein l1
+2vqeL 30s ribosomal protein s12
